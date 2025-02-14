@@ -1,0 +1,3 @@
+api_url = "https://catfact.ninja/fact"
+response = requests.get(api_url)
+response.json()
